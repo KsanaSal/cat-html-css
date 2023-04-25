@@ -1,0 +1,39 @@
+/* Basic styles */
+body {
+    font-family: "Montserrat", sans-serif;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1024px;
+    padding: 0 40px 0 40px;
+}
+
+/* Header styles */
+.header-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #f07f2e;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.67;
+    letter-spacing: 0.5px;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: #2c2c2c;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+}
