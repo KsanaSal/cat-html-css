@@ -150,12 +150,10 @@ img {
 }
 .social-links a:hover {
     background-color: #ffffff;
+    color: #f07f2e;
 }
 .icon {
     fill: currentColor;
     width: 16px;
     height: 16px;
-}
-.icon:hover {
-    fill: #f07f2e;
 }
