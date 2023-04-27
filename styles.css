@@ -124,3 +124,36 @@ img {
     padding-bottom: 48px;
     background-color: #0f3f3c;
 }
+.footer-page .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-text {
+    color: #ffffff;
+}
+.social-links {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+    color: #ffffff;
+}
+.social-links a {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    background-color: red;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+.social-links a:hover {
+    background-color: #ffffff;
+}
+.social-links a:hover img {
+    fill: #f07f2e;
+}
+.social-links li {
+    color: #ffffff;
+}
