@@ -6,10 +6,32 @@ a {
     text-decoration: none;
     color: inherit;
 }
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
 
 .container {
-    max-width: 1024px;
-    padding: 0 40px 0 40px;
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0 8px 0 8px;
+}
+.section {
+    margin-top: 60px;
 }
 
 /* Header styles */
@@ -36,4 +58,69 @@ a {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.5;
+}
+.navigation a:hover {
+    color: #f07f2e;
+}
+
+/* Styles main */
+/* Styles section  cats */
+.section-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.67;
+    letter-spacing: 0.5px;
+    color: #2c2c2c;
+}
+.cat-list {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+    color: #2c2c2c;
+}
+.cat-list li {
+    overflow: hidden;
+    border-radius: 16px;
+    background: #ffffff;
+}
+.cat-list li:hover {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+}
+.cat-content {
+    padding: 16px 16px 24px 16px;
+}
+.cat-content h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+.text {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+/* Styles cat gallery */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 40px;
+}
+.gallery li {
+    flex-basis: calc((100% - 5 * 16px) / 6);
+    border-radius: 16px;
+    overflow: hidden;
+}
+.gallery li:hover {
+    filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.25));
+}
+
+/* Styles footer */
+.footer-page {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: #0f3f3c;
 }
