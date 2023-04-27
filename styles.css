@@ -151,9 +151,11 @@ img {
 .social-links a:hover {
     background-color: #ffffff;
 }
-.social-links a:hover img {
-    fill: #f07f2e;
+.icon {
+    fill: currentColor;
+    width: 16px;
+    height: 16px;
 }
-.social-links li {
-    color: #ffffff;
+.icon:hover {
+    fill: #f07f2e;
 }
