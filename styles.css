@@ -132,6 +132,9 @@ img {
 .footer-text {
     color: #ffffff;
 }
+.links p {
+    text-align: end;
+}
 .social-links {
     display: flex;
     gap: 8px;
@@ -142,7 +145,6 @@ img {
     display: flex;
     width: 32px;
     height: 32px;
-    /* background-color: red; */
     border-radius: 50%;
     align-items: center;
     justify-content: center;
