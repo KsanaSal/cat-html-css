@@ -64,6 +64,36 @@ img {
 }
 
 /* Styles main */
+/* Styles herro */
+.hero {
+    position: relative;
+    height: 480px;
+    border-radius: 16px;
+    background-image: url(./img/cat-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.greeting {
+    position: absolute;
+    left: 28px;
+    bottom: 52px;
+    background: #0f3f3c;
+    border-radius: 16px;
+    width: 432px;
+    padding: 24px;
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: 1.25px;
+    color: #ffffff;
+}
+.hero-text {
+    color: #ffffff;
+    margin-top: 8px;
+}
 /* Styles section  cats */
 .section-title {
     font-weight: 700;
